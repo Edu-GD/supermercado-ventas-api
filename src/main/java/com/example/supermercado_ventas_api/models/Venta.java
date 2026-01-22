@@ -31,7 +31,4 @@ public class Venta {
 
     @OneToMany(mappedBy = "venta")
     private List<Producto> detalleVenta = new ArrayList<>();
-
-
-
 }

@@ -18,6 +18,4 @@ public class Sucursal {
     private String nombreSucursal;
     @Column(nullable = false)
     private String direccion;
-
-
 }
